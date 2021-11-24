@@ -4,15 +4,47 @@
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="utf-8">
-  <title></title>
+  <title>LOCAL: Holiday Happenings</title>
   <meta name="description" content="">
-  <meta name="author" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="">
+  <meta name="author" content="Rob Moore <rmoore@maddenmedia.com>">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1" />
+  <meta name="sv-nav-properties" content="{&quot;title&quot;:&quot;Holiday Happenings&quot;,&quot;id&quot;:&quot;619c19258929d25ea211b8d1&quot;,&quot;site_name&quot;:&quot;primary&quot;,&quot;section&quot;:&quot;landing&quot;,&quot;folderHref&quot;:&quot;/holiday-happenings/&quot;}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="referrer" content="always" />
+  <meta property="og:title" content="Holiday Happenings" />
+  <meta property="og:locale" content="en_us" />
+  <meta property="og:type" content="website" />
+                            
+  <!-- head css bundles -->									
+  <link rel="stylesheet" href="https://www.experienceprincegeorges.com/includes/public/managed/v_61d0eb09_9958c643/core/plugins/weather/virtuals/css/shared.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css"/>
+  <link rel="stylesheet" href="https://www.experienceprincegeorges.com/includes/public/managed/v_61d0eb09_9958c643/core/plugins/search/virtuals/css/shared.css"/>
+  <link rel="stylesheet" href="https://www.experienceprincegeorges.com/includes/public/managed/v_61d0eb09_9958c643/core/libs/yarn/node_modules/fontawesome-4.6.3/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="https://www.experienceprincegeorges.com/includes/public/managed/v_61d0eb09_9958c643/core/plugins/nav/virtuals/css/shared.css"/>
+  <link rel="stylesheet" href="https://www.experienceprincegeorges.com/includes/public/managed/v_61d0eb09_9958c643/core/plugins/offers/virtuals/css/shared_pro.css"/>
+  <link rel="stylesheet" href="https://www.experienceprincegeorges.com//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.8.24/themes/smoothness/jquery-ui.css"/>
+  <link rel="stylesheet" href="https://www.experienceprincegeorges.com/includes/public/managed/v_61d0eb09_9958c643/core/plugins/collections/virtuals/css/widget_template_custom_header_slideshow_interior.css"/>
+  <link rel="stylesheet" href="https://www.experienceprincegeorges.com/includes/public/magnific/magnific-popup.css"/>
+  <link rel="stylesheet" href="https://www.experienceprincegeorges.com/includes/public/managed/v_61d0eb09_9958c643/core/libs/yarn/node_modules/foundation-5.5.0/css/normalize.css"/>
+  <link rel="stylesheet" href="https://www.experienceprincegeorges.com/includes/public/managed/v_61d0eb09_9958c643/core/libs/yarn/node_modules/foundation-5.5.0/css/foundation.min.css"/>
+  <link rel="stylesheet" href="https://www.experienceprincegeorges.com/includes/public/managed/v_61d0eb09_9958c643/core/plugins/common/virtuals/css/shared.css"/>
+  <link rel="stylesheet" href="https://www.experienceprincegeorges.com/includes/public/managed/v_61d0eb09_9958c643/core/plugins/common/virtuals/css/shared_print.css" media="print"/>
+  <link rel="stylesheet" href="https://use.typekit.net/cna8sgp.css"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"/>
+                      
+  <!-- head js bundles -->									
+  <script src="https://www.experienceprincegeorges.com/includes/public/managed/v_61d0eb09_9958c643/core/libs/yarn/node_modules/foundation-5.5.0/js/vendor/modernizr.js"></script>
+  <script src="https://www.experienceprincegeorges.com/includes/public/managed/v_61d0eb09_9958c643/core/libs/sv/requirejs/public/require.js" data-ot-ignore></script>
+  <script src="https://www.experienceprincegeorges.com/requirejs_config_61d0eb09_9958c643.js" data-ot-ignore></script>
+  <script src="https://cdn.polyfill.io/v3/polyfill.min.js?features=default,IntersectionObserver"></script>
+  <script src="https://www.experienceprincegeorges.com/includes/public/managed/v_61d0eb09_9958c643/core/plugins/common/virtuals/js/shared_header.js"></script>
+                      
+  <!-- bottomHead -->											
 
   <!--[if lt IE 9]>
-<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<script src="https://www.experienceprincegeorges.com//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://www.experienceprincegeorges.com//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
   <link rel="shortcut icon" href="">
 </head>
@@ -26,44 +58,48 @@
       margin: auto;
       max-width: 1100px;
     }
-
+  
     .mmCard {
       flex: 0 0 48%;
       margin: 1%;
-
+  
       flex-grow: 1;
       flex-shrink: 0;
       flex-basis: 48%;
       flex-basis: 361px;
     }
-
+  
     .mmCard img {
       max-width: 100%;
     }
-
+  
     .mmCard:nth-last-of-type(-n+2):not(:nth-child(even)) {
       flex: 0 0 1100px;
     }
+
+    .mmCard .simple-button  {
+      padding-left: 0;
+    }
   </style>
   <h1 align="center"><strong><em>Holiday Happenings!</em></strong></h1>
-
+  
   <p>Check out the entire list of unforgettable special events and activities happening in Prince George&rsquo;s this
     holiday season.</p>
-
+  
   <section class="mmCards">
     <article class="mmCard">
       <p><img alt="Christmas Experience" data-height="577" data-processed="true" data-width="1025" height="577"
           id="plugins_assets_images_617ae98ff0d6ad74ec58d596"
           src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_577,q_75,w_1025/v1/clients/princegeorgesmd/our_flavors_ec46bf1e-df9b-4808-8f89-0923b1b95628.jpg"
           style="" width="1025" /></p>
-
+  
       <h3>A Christmas Experience at Gaylord National</h3>
-
+  
       <p>Take Christmas to a new level with a variety of over-the-top activities the whole family will love. Drive ice
         bumper cars, slide down a hilly ice coaster, have an indoor snowball fight or stroll through iconic Christmas
         movie scenes, build gingerbread houses and visit with Santa Claus. Extend the fun and book a room at the Gaylord
         for days of holiday cheer!</p>
-
+  
       <div
         class="contentRender contentRender_11 contentRender_type_widget contentRender_name_plugins_common_simple_button"
         data-gtm-vars="{ &quot;tCore&quot; : { &quot;contentNum&quot; : &quot;1&quot; } }" data-sv-index="11"
@@ -73,20 +109,20 @@
             target="_self">See More Fun </a></div>
       </div>
     </article>
-
+  
     <article class="mmCard">
       <p><img alt="Gingerbread House" data-height="577" data-processed="true" data-width="1025" height="577"
           id="plugins_assets_images_617ae98ff0d6ad74ec58d596"
           src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_577,q_75,w_1025/v1/clients/princegeorgesmd/our_flavors_ec46bf1e-df9b-4808-8f89-0923b1b95628.jpg"
           style="" width="1025" /></p>
-
+  
       <h3>22nd Annual Gingerbread House Contest</h3>
-
+  
       <p>For a sweet treat come to Darnall&#39;s Chance House Museum and view an amazing display of handmade, creative
         gingerbread houses. Take part in the Viewer&#39;s Choice Competition and vote for your favorite! This event is
         only available on select December weekends, so plan accordingly. Prefer to stay in? This year the show is also
         available online! Come check this out!</p>
-
+  
       <div
         class="contentRender contentRender_11 contentRender_type_widget contentRender_name_plugins_common_simple_button"
         data-gtm-vars="{ &quot;tCore&quot; : { &quot;contentNum&quot; : &quot;1&quot; } }" data-sv-index="11"
@@ -95,20 +131,20 @@
             href="https://www.pgparks.com/Calendar.aspx?EID=18025" target="_self">Edible Homes </a></div>
       </div>
     </article>
-
+  
     <article class="mmCard">
       <p><img alt="Christmas Experience" data-height="577" data-processed="true" data-width="1025" height="577"
           id="plugins_assets_images_617ae98ff0d6ad74ec58d596"
           src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_577,q_75,w_1025/v1/clients/princegeorgesmd/our_flavors_ec46bf1e-df9b-4808-8f89-0923b1b95628.jpg"
           style="" width="1025" /></p>
-
+  
       <h3>Holidays on Horseback</h3>
-
+  
       <p>Celebrate the holiday season in a magical style with a scenic horseback ride through a display of sparkling
         lights at Firefox Farm. Trusted, well-trained horses will take you on a wonderous 20-30 minute experience.
         Afterward, grab your special someone and settle by their cozy bonfire and enjoy a warm cup of cheer from the hot
         cocoa bar.</p>
-
+  
       <div
         class="contentRender contentRender_11 contentRender_type_widget contentRender_name_plugins_common_simple_button"
         data-gtm-vars="{ &quot;tCore&quot; : { &quot;contentNum&quot; : &quot;1&quot; } }" data-sv-index="11"
@@ -118,19 +154,19 @@
             target="_self">Twinkling Trail Rides </a></div>
       </div>
     </article>
-
+  
     <article class="mmCard">
       <p><img alt="Christmas Experience" data-height="577" data-processed="true" data-width="1025" height="577"
           id="plugins_assets_images_617ae98ff0d6ad74ec58d596"
           src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_577,q_75,w_1025/v1/clients/princegeorgesmd/our_flavors_ec46bf1e-df9b-4808-8f89-0923b1b95628.jpg"
           style="" width="1025" /></p>
-
+  
       <h3>Holidays at the Harbor</h3>
-
+  
       <p>Help spread holiday cheer at the National Harbor! Grab complimentary hot cocoa and watch a festive fireworks
         display. Take in the nightly lighting of the Christmas tree and snag a picture with Santa by the Capital Wheel.
         Loaded with fun activities day and night, this is a holiday event not to miss.</p>
-
+  
       <div
         class="contentRender contentRender_11 contentRender_type_widget contentRender_name_plugins_common_simple_button"
         data-gtm-vars="{ &quot;tCore&quot; : { &quot;contentNum&quot; : &quot;1&quot; } }" data-sv-index="11"
@@ -140,19 +176,19 @@
             target="_self">More Holiday Fun </a></div>
       </div>
     </article>
-
+  
     <article class="mmCard">
       <p><img alt="Jingle Bell Country" data-height="577" data-processed="true" data-width="1025" height="577"
           id="plugins_assets_images_617ae98ff0d6ad74ec58d596"
           src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_577,q_75,w_1025/v1/clients/princegeorgesmd/our_flavors_ec46bf1e-df9b-4808-8f89-0923b1b95628.jpg"
           style="" width="1025" /></p>
-
+  
       <h3>Jingle Bell Country Tours</h3>
-
+  
       <p>This season, Brandywine Carriage Tours is offering a four-mile horse-drawn carriage ride down beautiful local
         lanes. Enjoy the postcard-worthy views of open fields, thick woods and stunning Maryland farms. Pick up a bottle
         of wine from any of the nearby Legacy Wine Trail wineries to enjoy onboard.</p>
-
+  
       <div
         class="contentRender contentRender_11 contentRender_type_widget contentRender_name_plugins_common_simple_button"
         data-gtm-vars="{ &quot;tCore&quot; : { &quot;contentNum&quot; : &quot;1&quot; } }" data-sv-index="11"
@@ -161,20 +197,20 @@
             href="https://uwww.brandywinecarriagetours.com/our-tours" target="_self">See, Sip &amp; Ride </a></div>
       </div>
     </article>
-
+  
     <article class="mmCard">
       <p><img alt="Marietta House Museum" data-height="577" data-processed="true" data-width="1025" height="577"
           id="plugins_assets_images_617ae98ff0d6ad74ec58d596"
           src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_577,q_75,w_1025/v1/clients/princegeorgesmd/our_flavors_ec46bf1e-df9b-4808-8f89-0923b1b95628.jpg"
           style="" width="1025" /></p>
-
+  
       <h3>Marietta House Museum Winter Tours</h3>
-
-      <p>Step inside the Marietta House Museum for a holiday-infused glimpse at the lives of those that once occupied
-        the beautiful home. Learn about the traditions, recipes and work that took place over the winter season.
-        In-person (12/4/21) and virtual tours (12/02/21) are offered this year and can be reserved by emailing
+  
+      <p>Step inside the Marietta House Museum for a holiday-infused glimpse at the lives of those that once occupied the
+        beautiful home. Learn about the traditions, recipes and work that took place over the winter season. In-person
+        (12/4/21) and virtual tours (12/02/21) are offered this year and can be reserved by emailing
         stacey.hawkins@pgparks.com.</p>
-
+  
       <div
         class="contentRender contentRender_11 contentRender_type_widget contentRender_name_plugins_common_simple_button"
         data-gtm-vars="{ &quot;tCore&quot; : { &quot;contentNum&quot; : &quot;1&quot; } }" data-sv-index="11"
@@ -183,43 +219,42 @@
             href="https://uwww.brandywinecarriagetours.com/our-tours" target="_self">See, Sip &amp; Ride </a></div>
       </div>
     </article>
-
+  
     <article class="mmCard">
       <p><img alt="Six Flags America" data-height="577" data-processed="true" data-width="1025" height="577"
           id="plugins_assets_images_617ae98ff0d6ad74ec58d596"
           src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_577,q_75,w_1025/v1/clients/princegeorgesmd/our_flavors_ec46bf1e-df9b-4808-8f89-0923b1b95628.jpg"
           style="" width="1025" /></p>
-
+  
       <h3>Six Flags America: Holiday in the Park</h3>
-
+  
       <p>Explore the magic of the season at Six Flag America. Through January 2nd, the theme park offers unforgettable
         holiday fun. Take in a magical light show or musical performance, stroll through Christmas-themed attractions,
-        nibble on s&rsquo;mores around a fire pit and visit with Santa. Indulge in this limited-time fun and make
-        memories that will last a lifetime.</p>
-
+        nibble on s&rsquo;mores around a fire pit and visit with Santa. Indulge in this limited-time fun and make memories
+        that will last a lifetime.</p>
+  
       <div
         class="contentRender contentRender_11 contentRender_type_widget contentRender_name_plugins_common_simple_button"
         data-gtm-vars="{ &quot;tCore&quot; : { &quot;contentNum&quot; : &quot;1&quot; } }" data-sv-index="11"
         data-sv-time="15">
         <div class="simple-button align_left "><a class="simple-link"
-            href="https://www.sixflags.com/america/events/holiday-in-the-park#hours" target="_self">Feel Amused </a>
-        </div>
+            href="https://www.sixflags.com/america/events/holiday-in-the-park#hours" target="_self">Feel Amused </a></div>
       </div>
     </article>
-
+  
     <article class="mmCard">
       <p><img alt="Trains and Planes" data-height="577" data-processed="true" data-width="1025" height="577"
           id="plugins_assets_images_617ae98ff0d6ad74ec58d596"
           src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_577,q_75,w_1025/v1/clients/princegeorgesmd/our_flavors_ec46bf1e-df9b-4808-8f89-0923b1b95628.jpg"
           style="" width="1025" /></p>
-
+  
       <h3>Trains and Planes</h3>
-
+  
       <p>The National Capital Trackers are returning to the College Park Aviation Museum with their fleet of mechanical
         model trains. Hear the whistles blow as the trains trundle around their tracks in this incredible exhibit. Learn
-        about the trains, their past and their connection with the College Park Airport. The exhibit is open to the
-        public on December 17, 18 &amp; 19 from 10:00 am - 4:00 pm.</p>
-
+        about the trains, their past and their connection with the College Park Airport. The exhibit is open to the public
+        on December 17, 18 &amp; 19 from 10:00 am - 4:00 pm.</p>
+  
       <div
         class="contentRender contentRender_11 contentRender_type_widget contentRender_name_plugins_common_simple_button"
         data-gtm-vars="{ &quot;tCore&quot; : { &quot;contentNum&quot; : &quot;1&quot; } }" data-sv-index="11"
@@ -228,19 +263,19 @@
             href="https://www.facebook.com/events/216216650629674/?ref=newsfeed" target="_self">All Aboard! </a></div>
       </div>
     </article>
-
+  
     <article class="mmCard">
-      <p><img alt="Watkins Park Festival of Lights" data-height="577" data-processed="true" data-width="1025"
-          height="577" id="plugins_assets_images_617ae98ff0d6ad74ec58d596"
+      <p><img alt="Watkins Park Festival of Lights" data-height="577" data-processed="true" data-width="1025" height="577"
+          id="plugins_assets_images_617ae98ff0d6ad74ec58d596"
           src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_577,q_75,w_1025/v1/clients/princegeorgesmd/our_flavors_ec46bf1e-df9b-4808-8f89-0923b1b95628.jpg"
           style="" width="1025" /></p>
-
+  
       <h3>Watkins Park Festival of Lights</h3>
-
+  
       <p>Witness the holiday glitz from the comfort of your own car! This Festival of Lights offers three miles of
         dazzling holiday scenes, twinkling lights and pure holiday cheer. Pack some hot cocoa and experience the charm
         nightly from 5:00 pm - 9:30 pm, November 26 - January 2. Advance ticket purchase is recommended.</p>
-
+  
       <div
         class="contentRender contentRender_11 contentRender_type_widget contentRender_name_plugins_common_simple_button"
         data-gtm-vars="{ &quot;tCore&quot; : { &quot;contentNum&quot; : &quot;1&quot; } }" data-sv-index="11"
@@ -252,7 +287,7 @@
   </section>
 
   <!-- SCRIPTS -->
-  <!-- Example: <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+  <!-- Example: <script src="https://www.experienceprincegeorges.com//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
 </body>
 
 </html>
